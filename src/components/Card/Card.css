@@ -1,0 +1,30 @@
+.container {
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+    height: 100px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #3140a2;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: #3140a2;
+    border-color: white;
+    color: white;
+}
+
+.container h1 {
+    
+}
+
+.container p {
+
+}

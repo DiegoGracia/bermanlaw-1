@@ -1,0 +1,39 @@
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.navbar-container img {
+    width: 30%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding-top: 1%;
+    padding-right: 5%;
+}
+
+.number-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 0%;
+    margin-right: 5%;
+}
+
+.number-section img {
+    width: 10%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding-right: 0% !important;
+}
+
+.phone-container {
+    display: flex;
+    align-items: center;
+}
+
+.phone-container h1 {
+    padding-right: 5%;
+}

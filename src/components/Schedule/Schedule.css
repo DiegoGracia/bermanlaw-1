@@ -1,0 +1,59 @@
+.schedule-container {
+    display: flex;
+    width: 100%;
+    background-color: #3140a2;
+    height: 40vh;
+}
+
+.left-container{
+    justify-content: center;
+    display: flex;
+    width: 30%;
+}
+
+.center-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.center-container h1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 40px;
+    color: #0dbdff;
+}
+
+.center-container p{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 20px;
+    color: white;
+}
+
+.center-container button {
+    background-color: #0dbdff;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    border: 2px solid #0dbdff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+.right-container {
+    justify-content: center;
+    display: flex;
+    width: 30%;
+}
+
+.schedule-container img {
+    width: 50%;
+}
