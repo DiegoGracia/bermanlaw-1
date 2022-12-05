@@ -9,10 +9,10 @@ const Form = () => {
                 <h1>gratis</h1>
             </div>
             <form className="form">
-                <input type="text" id="fname" name="Name" placeholder="Name:" />
-                <input type="text" id="femail" name="Email" placeholder="Email:" />
-                <input type="number" id="fphone" name="Phone" placeholder="Phone:" />
-                <input type="text" id="ftellus" name="TellUs" placeholder="Tell use what happened:" />
+                <input type="text" id="fname" name="Name" placeholder="Nomnre:" />
+                <input type="text" id="femail" name="Email" placeholder="Correo:" />
+                <input type="number" id="fphone" name="Phone" placeholder="Teléfono:" />
+                <input type="text" id="ftellus" name="TellUs" placeholder="Cuéntanos qué sucedió:" />
                 <input type="submit" value="Send"/>
             </form>
         </div>
