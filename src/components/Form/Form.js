@@ -13,7 +13,7 @@ const Form = () => {
                 <input type="text" id="femail" name="Email" placeholder="Correo:" />
                 <input type="number" id="fphone" name="Phone" placeholder="Teléfono:" />
                 <input type="text" id="ftellus" name="TellUs" placeholder="Cuéntanos qué sucedió:" />
-                <input type="submit" value="Send"/>
+                <input type="submit" value="Mandar"/>
             </form>
         </div>
     );
