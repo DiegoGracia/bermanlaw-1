@@ -27,6 +27,7 @@
     aspect-ratio: 3/2;
     object-fit: contain;
     padding-right: 0% !important;
+    padding-top: 0% !important;
 }
 
 .phone-container {

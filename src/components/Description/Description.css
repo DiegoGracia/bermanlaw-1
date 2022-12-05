@@ -12,6 +12,11 @@
 
 .description-content{
     width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .text2 {
@@ -19,9 +24,8 @@
 }
 
 .description-content p {
-    font-size: 28px;
+    font-size: 200%;
     color: #3140a2;
-    padding-bottom: 5%;
     margin: 0 5%;
 }
 

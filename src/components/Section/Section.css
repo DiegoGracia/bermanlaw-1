@@ -1,6 +1,13 @@
 .section-container {
-    position: relative;
-    height: 60vh;
+    background-image: url("../../assets/Martillo.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 90vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .dual-container {
@@ -30,7 +37,7 @@
 }
 
 .left-section h1 {
-    font-size: 50px;
+    font-size: 300%;
     margin-right: 0;
     margin-left: 20%;
 }

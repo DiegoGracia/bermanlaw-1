@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "../Form/Form";
 import "./Hero.css";
 
 const Hero = ({ HeroTitle, HeroBody }) => {
@@ -9,6 +10,7 @@ const Hero = ({ HeroTitle, HeroBody }) => {
                 <p>{HeroBody}</p>
             </div>
             <div className="right-hero-container">
+                <Form/>
             </div>
         </div>
     );

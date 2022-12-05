@@ -13,9 +13,6 @@ const Section = () => {
                     <div className="left-section-button-container">
                         <div className="dual-container">
                             <button type="button">EVALUACION GRATIS</button> 
-                            <div className="hammer-image">
-                                <img src={img} alt="hammer"></img>
-                            </div>
                         </div>
                     </div>              
                 </div>
