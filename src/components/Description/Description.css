@@ -23,6 +23,13 @@
     color: black !important;
 }
 
+.description-content h1 {
+    font-size: 200%;
+    color: #3140a2;
+    margin: 0 5%;
+    margin-bottom: 5%;
+}
+
 .description-content p {
     font-size: 150%;
     color: #3140a2;
