@@ -4,7 +4,7 @@
 }
 
 .image-container {
-    background-image: url("../../assets/GlobosAzul.jpg"); /* The image used */
+    background-image: linear-gradient(rgba(46, 45, 45, 0.253),rgba(0, 0, 0, 0.1)), url("../../assets/GlobosAzul.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -44,6 +44,7 @@
     position: relative;
     font-size: 200%;
     color: white;
+    text-align: center;
 }
 
 .case-text button {
@@ -116,7 +117,8 @@
     .case-text p {
         position: relative;
         font-size: 200%;
-        color: white;
+        color: white;   
+        text-align: center;
     }
     
     .case-text button {
