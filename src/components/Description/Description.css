@@ -1,7 +1,7 @@
 .description-container {
     background-image: url("../../assets/DescriptionBanner.jpg"); /* The image used */
     background-color: red; /* Used if the image is unavailable */
-    height: 100vh; /* You must set a specified height */
+    height: 80vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -24,7 +24,7 @@
 }
 
 .description-content p {
-    font-size: 200%;
+    font-size: 150%;
     color: #3140a2;
     margin: 0 5%;
 }
