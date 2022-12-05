@@ -1,6 +1,6 @@
 .form-container {
     border-radius: 10px;
-    background-color: #0a0a0b2c;
+    background-color: #0a0a0b4c;
     padding: 20px;
     width: 45%;
 }
@@ -74,7 +74,7 @@ input[type=submit]:hover {
 @media (max-width: 960px) {
     .form-container {
         border-radius: 10px;
-        background-color: #0a0a0b2c;
+        background-color: #0a0a0bcd;
         padding: 20px;
         width: 100%;
     }
@@ -150,7 +150,6 @@ input[type=submit]:hover {
 @media (max-width: 670px) {
     .form-container {
         border-radius: 10px;
-        background-color: #0a0a0b2c;
         padding: 0px;
         width: 100%;
     }
