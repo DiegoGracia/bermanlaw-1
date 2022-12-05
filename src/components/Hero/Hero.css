@@ -60,6 +60,8 @@
     }
     
     .left-hero-container p{
+        position: relative;
+        bottom: 15%;
         font-size: 90%;
         color: white;
         text-align: center;

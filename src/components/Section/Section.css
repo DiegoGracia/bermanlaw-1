@@ -82,6 +82,8 @@
 
 @media (max-width: 960px){
     .section-container {
+        background-image: none;
+        background-color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
