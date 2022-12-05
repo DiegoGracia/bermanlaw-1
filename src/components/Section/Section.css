@@ -1,5 +1,5 @@
 .section-container {
-    background-image: url("../../assets/Martillo.jpg"); /* The image used */
+    background-image: url("../../assets/HammerSection.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 90vh; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -78,4 +78,87 @@
 .card-container {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 960px){
+    .section-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .dual-container {
+        display: flex;
+    }
+    
+    
+    .hammer-image img{
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        z-index: -1;
+    }
+    
+    .content {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .left-section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .left-section h1 {
+        font-size: 140%;
+        margin-right: 0;
+        margin-left: 0%;
+    }
+    
+    .left-section-button-container {
+        margin-left: 0%;
+    }
+    
+    .left-section-button-container button {
+        position: relative;
+        right: 15%;
+        background-color: white;
+        color: #0dbdff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 100px;
+        text-align: center;
+        border: 2px solid #0dbdff;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    
+    .left-section-button-container button:hover {
+        background-color: #0dbdff;
+        color: white ;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 15px;
+    }
+    
+    .right-section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
 }

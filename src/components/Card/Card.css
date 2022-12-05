@@ -1,7 +1,7 @@
 .container {
     border-color: black;
     border-style: solid;
-    width: 400px;
+    width: 300px;
     height: 100px;
     min-width: 150px;
     display: flex;
