@@ -1,6 +1,6 @@
 .description-container {
     background-image: url("../../assets/DescriptionBanner.jpg"); /* The image used */
-    background-color: red; /* Used if the image is unavailable */
+    background-color: white; /* Used if the image is unavailable */
     height: 80vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -31,6 +31,7 @@
 
 @media (max-width: 960px) {
     .description-container {
+        background-image: none; /* The image used */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -51,10 +52,19 @@
     .text2 {
         color: black !important;
     }
+
+    .description-content h1 {
+        position: relative;
+        bottom: 10%;
+        font-size: 150%;
+        color: #3140a2;
+        font-weight: bolder;
+    }
     
     .description-content p {
         font-size: 90%;
         color: #3140a2;
+        font-weight: bolder;
     }
     
 }

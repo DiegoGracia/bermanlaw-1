@@ -5,9 +5,9 @@ const Description = () => {
     return (
         <div className="description-container">
             <div className="description-content">
-                <p>Bufete Jurídico de Servicio Completo en
+                <h1>Bufete Jurídico de Servicio Completo en
                 Representación de Individuos, Negocios, y
-                Entidades Privadas y Públicas</p>
+                Entidades Privadas y Públicas</h1>
                 <p className="text2">
                 Si busca compensación después de un
                 accidente, busca presentar una demanda
