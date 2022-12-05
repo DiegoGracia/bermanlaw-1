@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../Card/Card"
 import "./Section.css";
 import { SectionData } from "../../data/SectionData"
-import img from "../../assets/Hammer.png"
 
 const Section = () => {
     return (

@@ -55,5 +55,7 @@
 }
 
 .schedule-container img {
-    width: 50%;
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
 }
