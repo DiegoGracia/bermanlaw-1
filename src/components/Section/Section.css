@@ -1,6 +1,10 @@
 .section-container {
-    position: relative;
-    height: 60vh;
+    background-image: url("../../assets/dolar.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 90vh;
 }
 
 .dual-container {
@@ -30,10 +34,29 @@
 }
 
 .left-section h1 {
-    font-size: 50px;
+    font-size: 250%;
     margin-right: 0;
     margin-left: 20%;
+    color: #266cef;
+    text-transform: uppercase;
+    padding-bottom: 2%;
 }
+
+.left-section h2 {
+    font-size: 250%;
+    margin-right: 0;
+    margin-left: 20%;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+} 
+
+.left-section p {
+    font-size: 125%;
+    margin-right: 0;
+    margin-left: 20%;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}  
 
 .left-section-button-container {
     margin-left: 20%;
@@ -41,18 +64,19 @@
 
 .left-section-button-container button {
     background-color: white;
-    color: #0dbdff;
+    color: #266cef;
     text-decoration: none;
     display: inline-block;
     padding: 10px 100px;
     text-align: center;
-    border: 2px solid #0dbdff;
+    border: 2px solid #266cef;
     border-radius: 15px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .left-section-button-container button:hover {
-    background-color: #0dbdff;
+    background-color: #266cef;
     color: white ;
     text-decoration: none;
     display: inline-block;

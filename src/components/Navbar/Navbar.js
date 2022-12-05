@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css"
-import img from "../../assets/Logo.png"
+import img from "../../assets/Logotipo10xlaw.png"
 import telefono from "../../assets/telefono.png"
 
 const Navbar = () => {
@@ -10,9 +10,9 @@ const Navbar = () => {
             <div className="number-section">
                 <img src={telefono} alt="telefono" />
                 <div className="phone-container">
-                    <h1>561</h1>
-                    <h1>453</h1>
-                    <h1>1394</h1>
+                    <h1>(866)</h1>
+                    <h1>941</h1>
+                    <h1>9393</h1>
                 </div>
             </div>
         </div>

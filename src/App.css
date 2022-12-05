@@ -14,7 +14,7 @@
     src: url(./fonts/Altone-Bold.ttf);
 }
 
-h1{
+h1, h2{
     font-family: AltoneBold;
 }
 

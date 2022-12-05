@@ -1,7 +1,7 @@
 .hero-container {
-    background-image: url("../../assets/HeroBanner.jpg"); /* The image used */
+    background-image: url("../../assets/BannerPrincipal.jpg"); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
-    height: 70vh; /* You must set a specified height */
+    height: 90vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -13,17 +13,36 @@
 .left-hero-container {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    width: 30%;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.top-text-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
 }
 
 .left-hero-container h1 {
-    font-size: 50px;
-    color: #0dbdff;
+    font-size: 250%;
+    margin: 0 20%;
+    text-align: center;
+    color: #fffc01;
+}
+
+.left-hero-container h2 {
+    font-size: 200%;
+    margin: 0 20%;
+    text-align: center;
+    color: white;
 }
 
 .left-hero-container p{
-    font-size: 25px;
-    color: white;
-    margin-right: 15%;
+    margin: 0 20%;
+    text-align: center;
+    font-size: 250%;
+    color: #fffc01;
+    margin-bottom: 3%;
+    font-weight: bold;
 }

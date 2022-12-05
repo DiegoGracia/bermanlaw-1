@@ -1,5 +1,5 @@
 .container {
-    border-color: black;
+    border-color: grey;
     border-style: solid;
     width: 400px;
     height: 100px;
@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #3140a2;
+    color: #266cef;
     border-radius: 10px;
     margin-bottom: 10px;
     transition-duration: 0.4s;
@@ -16,15 +16,31 @@
 }
 
 .container:hover {
-    background-color: #3140a2;
+    background-color: #266cef;
     border-color: white;
-    color: white;
+}
+
+.container:hover h1 {
+    color: #fffc01;
 }
 
 .container h1 {
-    
+    font-size: 150%;
+    text-align: center;
+}
+
+.container:hover h2 {
+    color: #fffc01;
+}
+
+.container h2 {
+    font-size: 130%;
+}
+
+.container:hover p {
+    color: white;
 }
 
 .container p {
-
+    color: black;
 }

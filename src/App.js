@@ -13,11 +13,8 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Hero HeroTitle={HeroDataEspañol.heroHeader} HeroBody={HeroDataEspañol.heroBody}/>
+      <Hero HeroTitle={HeroDataEspañol.heroHeader} HeroBody={HeroDataEspañol.heroBody} HeroSubtitle={HeroDataEspañol.heroSubTitle}/>
       <Section/>
-      <Schedule/>
-      <Description/>
-      <Logos/>
       <Footer/>
     </>
   );
