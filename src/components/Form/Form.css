@@ -1,7 +1,7 @@
 .form-container {
     border-radius: 10px;
     background-color: #fffc01;
-    padding: 10% 15%;
+    padding: 20px;
     width: 70%;
 }
 
@@ -71,4 +71,91 @@ input[type=submit]:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    .form-container {
+        border-radius: 10px;
+        background-color: #fffc01;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .form-title-container {
+        margin-bottom: 10%;
+    }
+    
+    .form-container h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        font-size: 100%;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #0a0a0b1d;
+        color: white;
+        right: 0;
+    }
+    
+    input[type=number] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #0a0a0b1d;
+        color: white;
+        right: 0;
+    }
+    
+    input[type=submit] {
+        position: relative;
+        left: 25%;
+        width: 50%;
+        background-color: black;
+        color: white;
+        padding: 14px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        position: relative;
+        left: 25%;
+        width: 50%;
+        background-color: white;
+        color: black;
+        padding: 14px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 670px) {
+    .form-container {
+        border-radius: 10px;
+        background-color: #fffc01;
+        padding: 0px;
+        width: 100%;
+    }
 }

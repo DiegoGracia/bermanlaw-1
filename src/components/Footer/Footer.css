@@ -67,3 +67,85 @@
 .empty-side{
     width: 25%;
 }
+
+@media (max-width: 960px) {
+    .footer-container{
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .image-container {
+        background-image: url("../../assets/GlobosAzul.jpg"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .privacy-policy {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        color: #fffc01;
+        flex-direction: column;
+    }
+    
+    .case-text {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .case-text h1 {
+        position: relative;
+        font-size: 250%;
+        color: #fffc01;
+        margin-top: 0;
+        top: 0;
+    }
+    
+    .case-text p {
+        position: relative;
+        font-size: 200%;
+        color: white;
+    }
+    
+    .case-text button {
+        background-color: #fffc01;
+        color: #266cef;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        border: 1px solid #266cef;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    .case-text h2 {
+        color: #fffc01;
+        font-size: 350%;
+    }
+    
+    .empty-side{
+        width: 25%;
+    }
+    
+}
+
+@media (max-width: 670px) {
+    .footer-container{
+        width: 100%;
+        height: 110vh;
+    }
+}
