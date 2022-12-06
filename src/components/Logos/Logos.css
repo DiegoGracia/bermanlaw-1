@@ -1,11 +1,2 @@
-.logos-container {
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-}
-
-.logos-container img{
-    width: 10%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
+.container {
 }
