@@ -11,9 +11,9 @@ const Footer = () => {
                     <p>Privacy Policy</p>
                 </div>
                 <div className="case-text">
-                    <h1>¿TIENES UN CASO?</h1>
-                    <p>PRESENTA TU DEMANDA POTENCIAL EN SOLO UN CLIC.</p>
-                    <button>CLIC PARA CONTACTARNOS</button>
+                    <h1>DO YOU HAVE A CASE?</h1>
+                    <p>SUBMIT YOUR POTENTIAL CLAIM IN A FEW CLICKS.</p>
+                    <button>CLIC TO CONTACT US</button>
                     <h2>10xlaw</h2>
                 </div>
                 <div className="empty-side"></div>

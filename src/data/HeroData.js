@@ -1,5 +1,5 @@
 export const HeroDataEspañol = {
-    heroHeader: "La Manera Rápida e Inteligente de Contratar a un Abogado Especializado en Lesiones...",
-    heroSubTitle: "¡En Cualquier Lugar de Florida!",
-    heroBody: "¡Es gratis a menos que ganemos!",
+    heroHeader: "The Smart and Fast Way to Hire an Injury Attorney...",
+    heroSubTitle: "Anywhere In Florida!",
+    heroBody: "It's free unless we win!",
 };

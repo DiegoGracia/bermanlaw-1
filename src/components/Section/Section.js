@@ -8,12 +8,12 @@ const Section = () => {
         <div className="section-container">
             <div className="content">
                 <div className="left-section">
-                    <h1>10XLAW.COM está respaldado</h1>
-                    <h2>por Berman Law Group</h2>
-                    <p>¡Nos encargamos de lesiones en todo Florida para conseguirte el dinero que mereces!</p>
+                    <h1>10XLAW.COM is powered</h1>
+                    <h2>by Berman Law Group</h2>
+                    <p>Handling injuries across Florida, to get you the money you deserve!</p>
                     <div className="left-section-button-container">
                         <div className="dual-container">
-                            <button type="button">EVALUACION GRATIS</button> 
+                            <button type="button">FREE EVALUATION</button> 
                         </div>
                     </div>              
                 </div>
