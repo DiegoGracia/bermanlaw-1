@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <div className="left-side">
-                <p>© 2022. 10xlaw.com. All Rights Reserved.</p>
+                <p>© 2022 Copyright Berman Law Firm, all rights reserved.</p>
                 <p>privacy policy</p>
                 <p>“Berman Law Group provides a range of legal services from our offices throughout Florida, as well as in California, Washington, D.C. and through
 affiliates in the rest of the United States. Our team of experienced trial attorneys are prepared to provide you with the qualified legal
