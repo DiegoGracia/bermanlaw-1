@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="left-side">
                 <p>© 2022 Copyright Berman Law Firm, all rights reserved.</p>
-                <p>privacy policy</p>
+                <p><a href="https://www.bermanlawgroup.com/privacy-policy/">privacy policy</a></p>
                 <p>“Berman Law Group provides a range of legal services from our offices throughout Florida, as well as in California, Washington, D.C. and through
 affiliates in the rest of the United States. Our team of experienced trial attorneys are prepared to provide you with the qualified legal
 representation you need and are committed to working tirelessly to get you everything you deserve. We are committed to being available 24/7 by
