@@ -11,12 +11,12 @@ const Schedule = () => {
                 <img src={img1} alt="guy1"/>
             </div>
             <div className="center-container">
-                <h1>SOLICITA UNA CONSULTA GRATIS CON UN ABOGADO</h1>
-                <p>Tu consulta inicial es gratis, y tenemos una
-                política de ‘sin recuperación = no hay costo.’
-                Llámanos hoy para recibir la mejor asesoría
-                legal de nuestros mejores abogados.</p>
-                <button>Clic Para Contactarnos</button>
+                <h1>SCHEDULE A FREE CONSULTATION WITH AN ATTORNEY</h1>
+                <p>Your initial consultation is free, and we have 
+                a policy of ‘no recovery = no fee.’ Call us 
+                today to get our best legal advice from our 
+                best attorneys.</p>
+                <button>Click to contact us</button>
             </div>
             <div className="right-container">
                 <img src={img2} alt="guy1"/>

@@ -8,10 +8,10 @@ const Section = () => {
         <div className="section-container">
             <div className="content">
                 <div className="left-section">
-                    <h1>Cuando necesitas un abogado, necesitas uno que obtenga resultados reales</h1>
+                    <h1>When you need an attorney, you need one that gets real results</h1>
                     <div className="left-section-button-container">
                         <div className="dual-container">
-                            <button type="button">EVALUACION GRATIS</button> 
+                            <button type="button">FREE CASE EVALUATION</button> 
                         </div>
                     </div>              
                 </div>

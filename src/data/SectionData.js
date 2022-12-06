@@ -1,14 +1,14 @@
 export const SectionData = [
     {
-    topText: "$5.1 Mil Millones",
-    subText: "en Resoluciones y Veredictos",
+    topText: "$5.1 BILLION",
+    subText: "IN SETTLEMENTS AND VERDICTS",
     },
     {
-    topText: "7 OFICINAS",
-    subText: "a nivel mundial",
+    topText: "7 OFFICES",
+    subText: "NATIONWIDE",
     },
     {
-    topText: "DISPONIILIDAD 24/7",
+    topText: "24/7 AVAILABILITY",
     subText: "",
     }
 ];
