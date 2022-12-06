@@ -12,7 +12,7 @@ const Footer = () => {
                 </div>
                 <div className="case-text">
                     <h1>¿TIENES UN CASO?</h1>
-                    <p>PRESENTA TU DEMANDA POTENCIAL EN SOLO UNOS CLICS.</p>
+                    <p>PRESENTA TU DEMANDA POTENCIAL EN SOLO UN CLIC.</p>
                     <button>CLIC PARA CONTACTARNOS</button>
                     <h2>10xlaw</h2>
                 </div>
