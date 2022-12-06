@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="privacy-policy">
                     <p>© 2022. 10xlaw.com. All Rights Reserved.</p>
                     <p>10xlaw.com is powered by Berman Law Group</p>
-                    <p>Privacy Policy</p>
+                    <p><a href="https://www.bermanlawgroup.com/privacy-policy/">Privacy Policy</a></p>
                 </div>
                 <div className="case-text">
                     <h1>¿TIENES UN CASO?</h1>
