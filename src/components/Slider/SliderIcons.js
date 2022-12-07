@@ -12,6 +12,7 @@ const SliderIcons = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
+        arrows: false,
         responsive: [
           {
             breakpoint: 960,

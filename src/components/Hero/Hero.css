@@ -75,3 +75,15 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 380px) {
+    .left-hero-container p{
+        position: relative;
+        bottom: 0;
+        font-size: 90%;
+        color: white;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+}
