@@ -42,7 +42,9 @@
 
 @media  (max-width: 960px) {
     .navbar-container img {
-        width: 50%;
+        position: relative;
+        right: 50px;
+        width: 80%;
         aspect-ratio: 3/2;
         object-fit: contain;
         padding-top: 1%;
@@ -51,24 +53,31 @@
 
     .number-section {
         padding-top: 0%;
-        margin-right: 5%;
+        margin-right: 0%;
+        width: 40px;
     }
     
     .number-section img {
-        width: 30% !important;
+        width: 120% !important;
         aspect-ratio: 3/2;
         object-fit: contain;
         padding-right: 0% !important;
         padding-top: 0% !important;
+        position: relative;
+        right: 20px;
     }
     
     .phone-container {
         display: flex;
         align-items: center;
+        position: relative;
+        right: 80px;
     }
     
     .phone-container h1 {
         padding-right: 5%;
-        font-size: 150%;
+        font-size: 125%;
+        position: relative;
+        left: 50px;
     }
 }

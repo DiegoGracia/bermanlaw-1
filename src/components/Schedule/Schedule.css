@@ -65,7 +65,7 @@
         display: flex;
         width: 100%;
         background-color: #3140a2;
-        height: 35vh;
+        height: 45vh;
     }
     
     .left-container{
@@ -92,7 +92,7 @@
     .center-container p{
         text-align: center;
         padding-bottom: 3%;
-        font-size: 70%;
+        font-size: 90%;
         color: white;
     }
     
@@ -122,7 +122,7 @@
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 380px) {
     .center-container h1{
         text-align: center;
         padding-bottom: 3%;
@@ -133,7 +133,7 @@
     .center-container p{
         text-align: center;
         padding-bottom: 3%;
-        font-size: 50%;
+        font-size: 80%;
         color: white;
     }
 }
