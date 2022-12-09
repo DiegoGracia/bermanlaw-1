@@ -26,3 +26,7 @@ h1, h2{
 p{
     font-family: AltoneRegular;
 }
+
+html{
+    scroll-behavior: smooth;
+}

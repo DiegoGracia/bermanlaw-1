@@ -2,6 +2,9 @@ import React from "react";
 import "./Footer.css"
 
 const Footer = () => {
+    const scroll = () => {
+        window.scrollTo(0,100)
+    }
     return (
         <div className="footer-container">
             <div className="image-container">
@@ -13,7 +16,7 @@ const Footer = () => {
                 <div className="case-text">
                     <h1>¿TIENES UN CASO?</h1>
                     <p>PRESENTA TU DEMANDA POTENCIAL EN SOLO UN CLIC.</p>
-                    <button>CLIC PARA CONTACTARNOS</button>
+                    <button onClick={() => scroll()}>CLIC PARA CONTACTARNOS</button>
                     <h2>10xlaw</h2>
                 </div>
                 <div className="empty-side"></div>
