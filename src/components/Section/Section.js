@@ -4,6 +4,10 @@ import "./Section.css";
 import { SectionData } from "../../data/SectionData"
 
 const Section = () => {
+    const scroll = () => {
+        window.scrollTo(0,100)
+    }
+
     return (
         <div className="section-container">
             <div className="content">
@@ -13,7 +17,7 @@ const Section = () => {
                     <p>Handling injuries across Florida, to get you the money you deserve!</p>
                     <div className="left-section-button-container">
                         <div className="dual-container">
-                            <button type="button">FREE EVALUATION</button> 
+                            <button onClick={() => scroll()} type="button">FREE EVALUATION</button> 
                         </div>
                     </div>              
                 </div>
