@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="case-text">
                     <h1>DO YOU HAVE A CASE?</h1>
                     <p>SUBMIT YOUR POTENTIAL CLAIM IN A FEW CLICKS.</p>
-                    <button onClick={() => scroll()} >CLIC TO CONTACT US</button>
+                    <button onClick={() => scroll()} >CLICK TO CONTACT US</button>
                     <h2>10xlaw</h2>
                 </div>
                 <div className="empty-side"></div>
