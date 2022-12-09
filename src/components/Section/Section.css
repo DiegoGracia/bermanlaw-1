@@ -298,7 +298,7 @@
 @media (max-width: 960px) and (orientation: landscape){
     .section-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         height: 170vh;
     }
