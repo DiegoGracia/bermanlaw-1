@@ -35,6 +35,20 @@ input[type=text] {
     color: black;
 }
 
+input[type=email] {
+    position: relative;
+    right: 5%;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(175, 167, 135, 0.338);
+    color: black;
+}
+
 input[type=number] {
     position: relative;
     right: 5%;
@@ -100,6 +114,19 @@ input[type=submit]:hover {
     }
     
     input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #0a0a0b1d;
+        color: white;
+        right: 0;
+    }
+
+    input[type=email] {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -187,6 +214,19 @@ input[type=submit]:hover {
     }
     
     input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #0a0a0b1d;
+        color: white;
+        right: 0;
+    }
+
+    input[type=email] {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
