@@ -33,14 +33,14 @@ const Form = () => {
         <div className="form-container">
             <div className="form-title-container">
                 <h1>FREE CASE</h1>
-                <h1>EVALUATION!</h1>
+                <h1>EVALUATION</h1>
             </div>
             <form className="form" onSubmit={submitHandler}>
                 <input type="text" name="Name" placeholder="Name:" onChange={changeHandler} />
                 <input type="email" name="Email" placeholder="Mail:" onChange={changeHandler}/>
                 <input type="number" name="Phone" placeholder="Phone:"  onChange={changeHandler}/>
                 <input type="text" name="TellUs" placeholder="Tell us what happened:" onChange={changeHandler} />
-                <input type="submit" value="Enviar"/>
+                <input type="submit" value="Send"/>
             </form>
         </div>
     );
