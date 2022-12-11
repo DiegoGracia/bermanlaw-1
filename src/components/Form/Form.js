@@ -12,14 +12,14 @@ const Form = () => {
         event.preventDefault()
         const config = {
             SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
-            To : 'MMuscarella@thebermanlawgroup.com',
+            To : 'service@10xlawflorida.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
         }
         const config2 = {
             SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
-            To : 'RBerman@thebermanlawgroup.com',
+            To : 'diego_gracia96@hotmail.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
