@@ -33,7 +33,7 @@ const Form = () => {
         <div className="form-container">
             <div className="form-title-container">
                 <h1>FREE CASE</h1>
-                <h1>EVALUATION</h1>
+                <h1>EVALUATION!</h1>
             </div>
             <form className="form" onSubmit={submitHandler}>
                 <input type="text" name="Name" placeholder="Name:" onChange={changeHandler} />
