@@ -12,14 +12,14 @@ const Form = () => {
         event.preventDefault()
         const config = {
             SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
-            To : 'service@10xlawflorida.com',
+            To : 'MMuscarella@thebermanlawgroup.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
         }
         const config2 = {
             SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
-            To : 'diego_gracia96@hotmail.com',
+            To : 'RBerman@thebermanlawgroup.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
@@ -32,8 +32,8 @@ const Form = () => {
     return(
         <div className="form-container">
             <div className="form-title-container">
-                <h1>evaluación</h1>
-                <h1>gratis</h1>
+                <h1>FREE CASE</h1>
+                <h1>EVALUATION</h1>
             </div>
             <form className="form" onSubmit={submitHandler}>
                 <input type="text" name="Name" placeholder="Name:" onChange={changeHandler} />
