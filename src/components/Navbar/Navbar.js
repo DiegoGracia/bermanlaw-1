@@ -10,9 +10,11 @@ const Navbar = () => {
             <div className="number-section">
                 <img src={telefono} alt="telefono" />
                 <div className="phone-container">
+                    <a href="tel:8669419393">
                     <h1>(866)</h1>
                     <h1>941</h1>
                     <h1>9393</h1>
+                    </a>
                 </div>
             </div>
         </div>

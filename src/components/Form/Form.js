@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Form.css"
 
 const Form = () => {
+
+    //MMuscarella@thebermanlawgroup.com,RBerman@thebermanlawgroup.com
     const [formState, setFormState] = useState({});
 
     const changeHandler = (event) => {
@@ -11,21 +13,21 @@ const Form = () => {
     const submitHandler = (event) => {
         event.preventDefault()
         const config = {
-            SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
+            SecureToken: "5c58aadb-187a-489e-b6e3-9cf305acd285",
             To : 'diego_gracia96@hotmail.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
         }
         const config2 = {
-            SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
+            SecureToken: "5c58aadb-187a-489e-b6e3-9cf305acd285",
             To : 'service@10xlawflorida.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
         }
         if(window.Email){
-            window.Email.send(config).then(() => alert("Mail sended"))
+            window.Email.send(config).then(() => window.location.href="https://google.com")
             window.Email.send(config2)
         }
     }
@@ -35,7 +37,7 @@ const Form = () => {
                 <h1>FREE CASE</h1>
                 <h1>EVALUATION</h1>
             </div>
-            <form className="form" onSubmit={submitHandler}>
+            <form className="form" onSubmit={submitHandler} action="https://10xlaw.com/">
                 <input type="text" name="Name" placeholder="Name:" onChange={changeHandler} />
                 <input type="email" name="Email" placeholder="Mail:" onChange={changeHandler}/>
                 <input type="number" name="Phone" placeholder="Phone:"  onChange={changeHandler}/>
