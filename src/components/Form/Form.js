@@ -11,23 +11,25 @@ const Form = () => {
     const submitHandler = (event) => {
         event.preventDefault()
         const config = {
-            SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
+            SecureToken: "5c58aadb-187a-489e-b6e3-9cf305acd285",
             To : 'MMuscarella@thebermanlawgroup.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
         }
         const config2 = {
-            SecureToken: "36c56350-fe05-4e9b-8ba0-4b861e4bd416",
+            SecureToken: "5c58aadb-187a-489e-b6e3-9cf305acd285",
             To : 'RBerman@thebermanlawgroup.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
             Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
         }
         if(window.Email){
-            window.Email.send(config).then(() => alert("correo enviado de manera exitosa"))
+            window.Email.send(config).then(() => window.location.href="https://10xlaw.com/")
             window.Email.send(config2)
         }
+        var CONVERSION_STAGE = '2';
+        window.trackingConversion(CONVERSION_STAGE);       
     }
     return(
         <div className="form-container">

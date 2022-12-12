@@ -37,6 +37,11 @@
     color: #266cef;
 }
 
+a{
+    display: flex;
+    flex-direction: row;
+}
+
 @media  (max-width: 960px) {
     .navbar-container img {
         width: 50%;
