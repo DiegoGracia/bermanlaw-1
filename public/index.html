@@ -38,7 +38,27 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    --><script src="https://smtpjs.com/v3/smtp.js">
+    --><script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script type="text/javascript">
+        /* Tracking code start */
+          (function() {
+          "use strict";
+          var head = document.getElementsByTagName("head")[0];
+          var trackingScript = document.createElement("script");
+          trackingScript.setAttribute("async", true);
+          trackingScript.setAttribute("src", "//static.rtbaxs.io/tracking.min.js?ts=" + new Date().getTime());
+          trackingScript.addEventListener("load", function () {
+          window.trackingStoreSession();
+          });
+          trackingScript.addEventListener("error", function () {
+          console.log('Failed to load tracking SDK');
+          });
+          head.appendChild(trackingScript);
+          })();
+          /* Tracking code end */
+      </script>
+      <img src='https://notify.rtbaxs.io/conversion/pixel' referrerpolicy="no-referrer-when-downgrade"
+      type='image/gif' />
   </script>
   </body>
 </html>

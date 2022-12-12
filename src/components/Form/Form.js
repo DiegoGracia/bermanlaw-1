@@ -28,6 +28,8 @@ const Form = () => {
             window.Email.send(config).then(() => window.location.href="https://10xlaw.com/")
             window.Email.send(config2)
         }
+        var CONVERSION_STAGE = '2';
+        window.trackingConversion(CONVERSION_STAGE);   
     }
     return(
         <div className="form-container">
