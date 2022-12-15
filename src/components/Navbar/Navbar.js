@@ -17,7 +17,7 @@ const Navbar = () => {
                     <a href="tel:8669419393"  onClick={trackingPhoneClick}>
                     <h1>(866)</h1>
                     <h1>941</h1>
-                    <h1>9393</h1>
+                    <h1>9339</h1>
                     </a>
                 </div>
             </div>
