@@ -15,10 +15,10 @@ const Navbar = () => {
             <div className="number-section">
                 <img src={telefono} alt="telefono" />
                 <div className="phone-container">
-                    <a href="tel:8669419339" onClick={trackingPhoneClick}>
-                    <h1>(866)</h1>
-                    <h1>941</h1>
-                    <h1>9339</h1>
+                    <a href="tel:5614531324" onClick={trackingPhoneClick}>
+                    <h1>(561)</h1>
+                    <h1>453</h1>
+                    <h1>1324</h1>
                     </a>
                 </div>
             </div>
