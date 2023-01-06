@@ -92,8 +92,8 @@ input[type=submit]:hover {
     position: relative;
     left: 15%;
     width: 50%;
-    background-color: white;
-    color: black;
+    background-color: #1F37FF;
+    color: #fffc01;
     padding: 14px;
     margin: 8px 0;
     border: none;
