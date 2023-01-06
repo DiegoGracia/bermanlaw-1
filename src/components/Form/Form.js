@@ -39,7 +39,7 @@ const Form = () => {
             </div>
             <form className="form" onSubmit={submitHandler}>
                 <input type="text" name="Name" placeholder="Name:" onChange={changeHandler} />
-                <input type="email" name="Email" placeholder="Mail:" onChange={changeHandler}/>
+                <input type="email" name="Email" placeholder="E-mail:" onChange={changeHandler}/>
                 <input type="number" name="Phone" placeholder="Phone:"  onChange={changeHandler}/>
                 <input type="text" name="TellUs" placeholder="Tell us what happened:" onChange={changeHandler} />
                 <input type="submit" value="Send"/>
