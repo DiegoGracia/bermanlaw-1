@@ -19,6 +19,13 @@ const Form = () => {
         }
         const config2 = {
             SecureToken: "5c58aadb-187a-489e-b6e3-9cf305acd285",
+            To : 'rafael@hubzity.com',
+            From : "service@10xlawflorida.com",
+            Subject : "contact",
+            Body : `this is the info: ${formState.Name},${formState.Email}, ${formState.Number}, ${formState.TellUs}`
+        }
+        const config3 = {
+            SecureToken: "5c58aadb-187a-489e-b6e3-9cf305acd285",
             To : 'RBerman@thebermanlawgroup.com',
             From : "service@10xlawflorida.com",
             Subject : "contact",
@@ -27,6 +34,7 @@ const Form = () => {
         if(window.Email){
             window.Email.send(config).then(() => window.location.href="https://10xlaw.com/")
             window.Email.send(config2)
+            window.Email.send(config3)
         }
         var CONVERSION_STAGE = '2';
         window.trackingConversion(CONVERSION_STAGE);       
